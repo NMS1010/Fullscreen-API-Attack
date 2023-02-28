@@ -1,16 +1,7 @@
-# HTML5 Fullscreen API Attack
-
-Copyright 2012 Feross Aboukhadijeh (http://feross.org). More info: http://feross.org/html5-fullscreen-api-attack/
-
-## Features
-
-- Emulates UI of:
-  - current browser
-  - current OS
-  - handles arbitrary screen resolutions (fluid UI images)
-- Attack works whether user starts out in fullscreen mode or not. In fact, it's even more convincing when user is already fullscreened.
-- Attack preloads all images in background so that UI doesn't flash when images are load
-
-## License
-
-MIT
+# Nhóm 26
+- Trần Minh Mẫn - 20110713
+- Nguyễn Minh Sơn - 20110301
+# Hướng dẫn sử dụng
+- Các bước thực hiện
+  - Mở file index.html trong thư mục source code
+  - Click vào biểu tượng user (Cô có thể mở file ảnh ![image info](/instruction.png) để xem chi tiết)
