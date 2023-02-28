@@ -1,9 +1,9 @@
 // Copyright 2012 Feross Aboukhadijeh (http://feross.org) (feross@feross.org)
 
 $.facebox.settings.closeImage =
-   "/hacks/fullscreen-api-attack/img/facebox/closelabel.png";
+   "img/facebox/closelabel.png";
 $.facebox.settings.loadingImage =
-   "/hacks/fullscreen-api-attack/img/facebox/loading.gif";
+   "img/facebox/loading.gif";
 
 function requestFullScreen() {
    if (elementPrototype.requestFullscreen) {
