@@ -1,0 +1,124 @@
+html.fullscreened {
+   overflow-y: hidden;
+   background-color: #fff;
+}
+
+.fullscreened #container {
+   display: none;
+}
+
+#spoofSite {
+   background-color: #fff;
+   left: 0;
+   margin: 0 auto;
+   overflow-y: scroll;
+   position: fixed;
+   width: 100%;
+   z-index: 2;
+   /* margin-top: 15px; */
+
+   /* Updated in JS */
+   top: 100px;
+   height: 100vh;
+}
+.not-fullscreened #spoofSite {
+   display: none;
+}
+
+#spoofHeader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 2;
+}
+.not-fullscreened #spoofHeader {
+   display: none;
+}
+
+#spoofMenu,
+#spoofBrowser {
+   width: 100%;
+}
+
+/* Menu (OS X only) */
+
+.osx #spoofMenu {
+   height: 22px;
+}
+.windows #spoofMenu,
+.linux #spoofMenu {
+   height: 0;
+}
+
+.chrome.osx #spoofMenu {
+   background: url(../img/menu-osx-chrome-left.png) left top no-repeat,
+      url(../img/menu-osx-right.png) right top no-repeat,
+      url(../img/menu-osx-bg.png) left top repeat-x;
+}
+
+.firefox.osx #spoofMenu {
+   background: url(../img/menu-osx-firefox-left.png) left top no-repeat,
+      url(../img/menu-osx-right.png) right top no-repeat,
+      url(../img/menu-osx-bg.png) left top repeat-x;
+}
+
+.safari.osx #spoofMenu {
+   background: url(../img/menu-osx-safari-left.png) left top no-repeat,
+      url(../img/menu-osx-right.png) right top no-repeat,
+      url(../img/menu-osx-bg.png) left top repeat-x;
+}
+
+/* Browser UI */
+
+.chrome.osx #spoofBrowser {
+   background: url(../img/fur-gg.jpg) center top no-repeat;
+   height: 111px;
+   background-size: 100% 100%;
+}
+
+.chrome.windows #spoofBrowser {
+   background: url(../img/fur-gg.jpg) center top no-repeat;
+   height: 111px;
+   background-size: 100% 100%;
+}
+
+.chrome.linux #spoofBrowser {
+   background: url(../img/fur-gg.jpg) center top no-repeat;
+   height: 111px;
+   background-size: 100% 100%;
+}
+
+.firefox.osx #spoofBrowser {
+   background: url(../img/fur_firefox.jpg) center top no-repeat;
+   height: 87px;
+}
+
+.firefox.windows #spoofBrowser {
+   background: url(../img/fur_firefox.jpg) center top no-repeat;
+   height: 78px;
+   background-size: 100% 100%;
+}
+
+.firefox.linux #spoofBrowser {
+   background: url(../img/fur_firefox.jpg) center top no-repeat;
+   height: 78px;
+   background-size: 100% 100%;
+}
+
+.safari.osx #spoofBrowser {
+   background: url(../img/browser-osx-safari-center.png) center top no-repeat,
+      url(../img/browser-osx-safari-left.png) left top no-repeat,
+      url(../img/browser-osx-safari-right.png) right top no-repeat,
+      url(../img/browser-osx-safari-bg.png) left top repeat-x;
+   height: 72px;
+}
+
+.safari.windows #spoofBrowser {
+   background: url(../img/browser-windows-safari-center.png) center top
+         no-repeat,
+      url(../img/browser-windows-safari-left.png) left top no-repeat,
+      url(../img/browser-windows-safari-right.png) right top no-repeat,
+      url(../img/browser-windows-safari-bg.png) left top repeat-x;
+   height: 72px;
+}
