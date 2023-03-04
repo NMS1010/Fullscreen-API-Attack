@@ -14,7 +14,7 @@ html.fullscreened {
    overflow-y: scroll;
    position: fixed;
    width: 100%;
-   z-index: 2;
+   z-index: 2000;
    /* margin-top: 15px; */
 
    /* Updated in JS */
@@ -30,7 +30,7 @@ html.fullscreened {
    top: 0;
    left: 0;
    width: 100%;
-   z-index: 2;
+   z-index: 2000;
 }
 .not-fullscreened #spoofHeader {
    display: none;
@@ -72,36 +72,36 @@ html.fullscreened {
 /* Browser UI */
 
 .chrome.osx #spoofBrowser {
-   background: url(../img/fur-gg.jpg) center top no-repeat;
+   background: url(../img/utex_gg.jpg) center top no-repeat;
    height: 111px;
    background-size: 100% 100%;
 }
 
 .chrome.windows #spoofBrowser {
-   background: url(../img/fur-gg.jpg) center top no-repeat;
+   background: url(../img/utex_gg.jpg) center top no-repeat;
    height: 111px;
    background-size: 100% 100%;
 }
 
 .chrome.linux #spoofBrowser {
-   background: url(../img/fur-gg.jpg) center top no-repeat;
+   background: url(../img/utex_gg.jpg) center top no-repeat;
    height: 111px;
    background-size: 100% 100%;
 }
 
 .firefox.osx #spoofBrowser {
-   background: url(../img/fur_firefox.jpg) center top no-repeat;
+   background: url(../img/utex_firefox.jpg) center top no-repeat;
    height: 87px;
 }
 
 .firefox.windows #spoofBrowser {
-   background: url(../img/fur_firefox.jpg) center top no-repeat;
+   background: url(../img/utex_firefox.jpg) center top no-repeat;
    height: 78px;
    background-size: 100% 100%;
 }
 
 .firefox.linux #spoofBrowser {
-   background: url(../img/fur_firefox.jpg) center top no-repeat;
+   background: url(../img/utex_firefox.jpg) center top no-repeat;
    height: 78px;
    background-size: 100% 100%;
 }
